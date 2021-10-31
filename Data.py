@@ -8,14 +8,14 @@ Hey {}
 
 Welcome to {}
 
-If you don't trust this bot, 
+If you don't trust me, 
 1) stop reading this message
 2) delete this chat
 
 Still reading?
-You can use me to generate pyrogram and telethon string session. Use below buttons to learn more !
+You can use me to generate pyrogram and telethon string session. Use the below buttons to know more!
 
-By @StarkBots
+By @MarineBots
     """
 
     # Home Button
@@ -31,31 +31,28 @@ By @StarkBots
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("🦋 Support Chat 🦋", url="https://telegram.dog/MarineChats")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://telegram.dog/MarineBots")],
     ]
 
     # Help Message
     HELP = """
-✨ **Available Commands** ✨
+» Click the below button or use /generate command to start generating session!
+» Click the required button; [Pyrogram/Telethon]
+» Enter the required variables when asked.
 
-/about - About The Bot
-/help - This Message
-/start - Start the Bot
-/generate - Start Generating Session
-/cancel - Cancel the process
-/restart - Cancel the process
+BTW, if you don’t trust me, you can host [one] like me using my source code provided in my about page; [/about]
 """
 
     # About Message
     ABOUT = """
-**About This Bot** 
+**About Me** 
 
-A telegram bot to generate pyrogram and telethon string session by @StarkBots
+A telegram bot to generate pyrogram and telethon string session...
 
 Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
 
@@ -63,5 +60,5 @@ Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Support Chat : [MarineChats 🦋](https://telegram.me/MarineChats)
     """
