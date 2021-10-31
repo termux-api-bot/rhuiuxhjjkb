@@ -1,6 +1,6 @@
 # This is just a clone of [String Session Bot](https://github.com/StarkBotsIndustries/StringSessionBot)!
 
-## Pyrogram and Telethon String Session Bot [@StarkStringGenBot](https://t.me/StarkStringGenBot)
+## Pyrogram and Telethon String Session Bot [@genStrBot](https://telegram.dog/genStrBot)
 
 > A star ⭐ from you means a lot to us!
 
