@@ -15,50 +15,46 @@ If you don't trust me,
 Still reading?
 You can use me to generate pyrogram and telethon string session. Use the below buttons to know more!
 
-By @MarineBots
+By @DEOOUS
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton("♰ بدا استخراج", callback_data="generate")],
+        [InlineKeyboardButton(text="♰ رجوع", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+        [InlineKeyboardButton("♰ بدا استخراج", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("🦋 Support Chat 🦋", url="https://telegram.dog/MarineChats")],
+        [InlineKeyboardButton("♰ بدا استخراج", callback_data="generate")],
+        [InlineKeyboardButton("♰ قناتنا", url="https://telegram.dog/MarineChats")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("♰ مساعده", callback_data="help"),
+            InlineKeyboardButton("♰ وصف البوت", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://telegram.dog/MarineBots")],
+        [InlineKeyboardButton("♰ مطورين", url="https://telegram.dog/rekhso")],
     ]
 
     # Help Message
     HELP = """
-» Click the below button or use /generate command to start generating session!
-» Click the required button; [Pyrogram/Telethon]
-» Enter the required variables when asked.
+» انقر على الزر أدناه أو استخدم/إنشاء الأمر لبدء إنشاء جلسة!
 
-BTW, if you don’t trust me, you can host [one] like me using my source code provided in my about page; [/about]
+» انقر على الزر المطلوب؛ [Pyrogram/Telethon]
+
+» أدخل المتغيرات المطلوبة عندما يطلب منك ذلك.
+
+راجع للشغل، إذا كنت لا تثق بي، يمكنك استضافة [واحد] مثلي باستخدام شفرة المصدر الخاصة بي المتوفرة في صفحتي عن؛ [/حول]
 """
 
     # About Message
     ABOUT = """
-**About Me** 
-
-A telegram bot to generate pyrogram and telethon string session...
-
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
-
-Framework : [Pyrogram](docs.pyrogram.org)
-
-Language : [Python](www.python.org)
-
-Support Chat : [MarineChats 🦋](https://telegram.me/MarineChats)
+وصف البوت ♰
+[مطور](https://t.me/rekhso)
+[المطور الي كتب البوت](https://t.me/ckcck)
+[قناتنا](https://t.me/deoous)
+♰ وشكرا
     """
