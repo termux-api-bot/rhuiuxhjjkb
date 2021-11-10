@@ -31,7 +31,7 @@ By @DEOOUS
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("♰ بدا استخراج", callback_data="generate")],
-        [InlineKeyboardButton("♰ قناتنا", url="https://telegram.dog/MarineChats")],
+        [InlineKeyboardButton("♰ قناتنا", url="https://telegram.dog/deoous")],
         [
             InlineKeyboardButton("♰ مساعده", callback_data="help"),
             InlineKeyboardButton("♰ وصف البوت", callback_data="about")
